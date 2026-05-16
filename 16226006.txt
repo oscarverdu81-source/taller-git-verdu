@@ -1,0 +1,27 @@
+Algoritmo buscado de puesto de estacionamiento.
+
+{
+	var int [5,4] est;  /declaro las variables y la matriz para usar, todas como entero ya que 
+	var int fila;       /solo usaremos enteros en el algoritmo
+	var int colum;	    /leemos las variables fila, columna.
+	read fila;
+	read colum;
+		{ 
+		if (fila < o or fila >= 5 or colum < 0 or colum >= 4); /use sentencias if(si) para validar los casos donde si se coloca una coordenada que no esta en rango de un error y
+			print (-1 "Fuera de Rango")		      / indique la palabra Fuera de rango, en la siguiente sentencia en el primer sino donde la matriz sea igual a 0
+		}						      /pase a la validación donde indique si esta ocupado o no con el 0 y el 1	
+			{
+			elif 
+			}
+				est == 0; 	
+				{
+					print(0 "Puesto Ocupado");
+				}	
+				{
+					elif (1 "Puesto Disponible");
+				}	
+}
+
+/Oscar Verdu 16116006
+/pnf informática
+/trayecto 1 trimestre 2
